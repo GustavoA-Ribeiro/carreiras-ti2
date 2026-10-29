@@ -1,0 +1,53 @@
+{
+  "perguntas_afinidade": [
+    {"id": "matematica", "texto": "Afinidade com Matemática, Estatística e Dados"},
+    {"id": "logica", "texto": "Afinidade com Lógica, Algoritmos e Regras de Negócio"},
+    {"id": "visual", "texto": "Afinidade com Design Visual, Interfaces e UI/UX"},
+    {"id": "infra", "texto": "Afinidade com Servidores, Redes e Infraestrutura"},
+    {"id": "seguranca", "texto": "Afinidade com Defesa Cibernética e Criptografia"},
+    {"id": "negocios", "texto": "Afinidade com Gestão, Estratégia de Produto e Agilidade"},
+    {"id": "qualidade", "texto": "Afinidade com Testes, Detalhes e Confiabilidade"}
+  ],
+  "trilhas": {
+    "Desenvolvimento Back-end": {
+      "pesos": {"matematica": 2, "logica": 5, "visual": 1, "infra": 4, "seguranca": 3, "negocios": 2, "qualidade": 3},
+      "roadmap": {"tecnologias": ["Python", "Node.js", "SQL/NoSQL", "Docker"], "certificacoes": ["AWS Certified Developer"], "portfolio": "Desenvolver uma API RESTful completa com autenticação e base de dados."}
+    },
+    "Desenvolvimento Front-end & UI/UX": {
+      "pesos": {"matematica": 1, "logica": 3, "visual": 5, "infra": 1, "seguranca": 1, "negocios": 3, "qualidade": 2},
+      "roadmap": {"tecnologias": ["HTML/CSS", "JavaScript/TypeScript", "React ou Vue"], "certificacoes": ["Meta Front-End Developer"], "portfolio": "Criar um clone de uma interface complexa (ex: Netflix) responsiva."}
+    },
+    "Ciência de Dados e Machine Learning": {
+      "pesos": {"matematica": 5, "logica": 4, "visual": 2, "infra": 2, "seguranca": 1, "negocios": 3, "qualidade": 2},
+      "roadmap": {"tecnologias": ["Python", "Pandas", "Scikit-Learn", "Jupyter"], "certificacoes": ["IBM Data Science", "Google Data Analytics"], "portfolio": "Modelo preditivo (ex: previsão de preços de casas) publicado no Kaggle."}
+    },
+    "Engenharia de Dados": {
+      "pesos": {"matematica": 3, "logica": 4, "visual": 1, "infra": 5, "seguranca": 2, "negocios": 2, "qualidade": 3},
+      "roadmap": {"tecnologias": ["Python", "SQL Avançado", "Spark", "Airflow"], "certificacoes": ["GCP Professional Data Engineer"], "portfolio": "Pipeline de ETL automático extraindo dados de uma API pública."}
+    },
+    "Cibersegurança": {
+      "pesos": {"matematica": 2, "logica": 4, "visual": 1, "infra": 5, "seguranca": 5, "negocios": 1, "qualidade": 4},
+      "roadmap": {"tecnologias": ["Linux", "Redes (TCP/IP)", "Python (Scripts)", "Kali Linux"], "certificacoes": ["CompTIA Security+", "CEH"], "portfolio": "Relatório de Pentest num ambiente controlado (CTF - Hack The Box)."}
+    },
+    "DevOps & SRE": {
+      "pesos": {"matematica": 2, "logica": 4, "visual": 1, "infra": 5, "seguranca": 4, "negocios": 2, "qualidade": 4},
+      "roadmap": {"tecnologias": ["Linux", "Docker", "Kubernetes", "CI/CD (GitHub Actions)", "Terraform"], "certificacoes": ["AWS SysOps", "CKA"], "portfolio": "Automatizar o deploy de uma aplicação web usando CI/CD e contêineres."}
+    },
+    "Computação em Nuvem (Cloud)": {
+      "pesos": {"matematica": 2, "logica": 3, "visual": 1, "infra": 5, "seguranca": 4, "negocios": 3, "qualidade": 2},
+      "roadmap": {"tecnologias": ["AWS/Azure/GCP", "Redes em Nuvem", "IAM", "Terraform"], "certificacoes": ["AWS Solutions Architect Associate"], "portfolio": "Arquitetar e implementar um ambiente altamente disponível na AWS."}
+    },
+    "Desenvolvimento Mobile": {
+      "pesos": {"matematica": 1, "logica": 4, "visual": 4, "infra": 2, "seguranca": 2, "negocios": 2, "qualidade": 3},
+      "roadmap": {"tecnologias": ["Flutter ou React Native", "Kotlin", "Swift"], "certificacoes": ["Google Flutter Developer"], "portfolio": "Publicar uma App de gestão pessoal na Play Store ou App Store."}
+    },
+    "Engenharia de Qualidade e Testes (QA)": {
+      "pesos": {"matematica": 1, "logica": 4, "visual": 2, "infra": 2, "seguranca": 2, "negocios": 2, "qualidade": 5},
+      "roadmap": {"tecnologias": ["Selenium", "Cypress", "PyTest", "Postman"], "certificacoes": ["CTFL (ISTQB)"], "portfolio": "Criar uma suíte de testes automatizados E2E para um site de E-commerce."}
+    },
+    "Gestão de Produtos (PM)": {
+      "pesos": {"matematica": 2, "logica": 2, "visual": 3, "infra": 1, "seguranca": 1, "negocios": 5, "qualidade": 3},
+      "roadmap": {"tecnologias": ["Jira/Trello", "Metodologias Ágeis (Scrum/Kanban)", "Figma (Básico)", "Métricas de Produto"], "certificacoes": ["PSPO I (Scrum.org)", "CSPO"], "portfolio": "Escrever um PRD (Product Requirements Document) e um backlog priorizado."}
+    }
+  }
+}
